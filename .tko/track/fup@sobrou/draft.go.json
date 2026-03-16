@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_23-42-45",
+            "content": "@@ -1,232 +1,68 @@\n-q1 = int(input())%0Aq2 = int(input())%0Aq3 = int(input())%0A%0Ap1 = float(input())%0Ap2 = float(input())%0Ap3 = float(input())%0A%0Adinheiro = float(input())%0A%0Agasto = (q1 * p1) + (q2 * p2) + (q3 * p3)%0Atroco = dinheiro - gasto%0A%0Aprint(f%22%7Btroco:.2f%7D%22)\n+package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22qxcode%22)%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_23-48-47",
+            "content": "@@ -1,48 +1,4 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    \n q1 =\n@@ -148,29 +148,41 @@\n o = \n+(\n q1\n-*\n+ * \n p1\n+)\n  + \n+(\n q2\n-*\n+ * \n p2\n+)\n  + \n+(\n q3\n-*\n+ * \n p3\n+)\n %0Atro\n@@ -212,16 +212,17 @@\n print(f%22\n+%7B\n troco:.2\n@@ -226,10 +226,7 @@\n :.2f\n+%7D\n %22)\n-,%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-10_23-52-52",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,256 +37,191 @@\n ) %7B%0A\n-%09var q1, q2, \n+    q1 = int(input())%0Aq2 = int(input())%0A\n q3\n+ =\n  int\n-%0A%09var p1, p2, p3 float64%0A%09var dinheiro float64%0A%0A%09fmt.Scan(&q1)%0A%09fmt.Scan(&q2)%0A%09fmt.Scan(&q3)%0A%0A%09fmt.Scan(&p1)%0A%09fmt.Scan(&p2)%0A%09fmt.Scan(&p3)%0A%0A%09fmt.Scan(&dinheiro\n+(input())%0A%0Ap1 = float(input())%0Ap2 = float(input())%0Ap3 = float(input())%0A%0Adinheiro = float(input()\n )%0A%0A\n-%09\n gasto \n-:\n = \n-float64(\n q1\n-)\n *p1 + \n-float64(\n q2\n-)\n *p2 + \n-float64(\n q3\n-)\n *p3%0A\n-%09\n troco \n-:\n = di\n@@ -240,35 +240,27 @@\n to%0A%0A\n-%09fmt.Printf(%22%25.2f%5Cn%22, troco)\n+print(f%22troco:.2f%22),\n %0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-11_00-00-41",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar q1, q2, q3 int\n\tvar p1, p2, p3 float64\n\tvar dinheiro float64\n\n\tfmt.Scan(&q1)\n\tfmt.Scan(&q2)\n\tfmt.Scan(&q3)\n\n\tfmt.Scan(&p1)\n\tfmt.Scan(&p2)\n\tfmt.Scan(&p3)\n\n\tfmt.Scan(&dinheiro)\n\n\tgasto := float64(q1)*p1 + float64(q2)*p2 + float64(q3)*p3\n\ttroco := dinheiro - gasto\n\n\tfmt.Printf(\"%.2f\\n\", troco)\n}\n",
+            "lines": "24"
+        }
+    ]
+}

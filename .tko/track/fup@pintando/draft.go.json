@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_18-00-47",
+            "content": "@@ -10,32 +10,20 @@\n ain%0A\n-%0A\n import \n-(\n %22fmt%22\n-; %22math%22)%0A\n %0Afun\n@@ -155,9 +155,8 @@\n -c)))%0A%7D%0A\n-%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-01-38",
+            "content": "package main\n\nimport (\"fmt\"; \"math\")\n\nfunc main() {\n    var a,b,c float64\n    fmt.Scan(&a,&b,&c)\n    p := (a+b+c)/2\n    fmt.Printf(\"%.2f\\n\",math.Sqrt(p*(p-a)*(p-b)*(p-c)))\n}\n\n",
+            "lines": "11"
+        }
+    ]
+}

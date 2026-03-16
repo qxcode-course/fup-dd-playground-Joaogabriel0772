@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-15-15",
+            "content": "@@ -72,57 +72,6 @@\n o%22)%0A\n-    fmt.Println(%22panda%22)%0A    fmt.Println(%22pereba%22)%0A\n %7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-15-50",
+            "content": "@@ -93,11 +93,36 @@\n panda%22)%0A\n+    fmt.Println(%22pereba%22)\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-25-26",
+            "content": "@@ -19,18 +19,16 @@\n t %22fmt%22%0A\n-%0A%0A\n func mai\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-26-56",
+            "content": "@@ -21,17 +21,16 @@\n %22fmt%22%0A%0A%0A\n-%0A\n func mai\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-29-38",
+            "content": "@@ -57,18 +57,50 @@\n ln(%22\n-ol%C3%A1 mundo\n+primeiro codigo%22)%0A    fmt.Println(%22panda\n %22)%0A\n+%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-32-20",
+            "content": "@@ -40,30 +40,8 @@\n ) %7B%0A\n-    var num1,num2 int%0A\n     \n@@ -67,19 +67,8 @@\n ndo%22\n-, num1,num2\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-39-55",
+            "content": "@@ -58,35 +58,11 @@\n um2 \n-float64%0A    fmt.Scan(&num1)\n+int\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-42-54",
+            "content": "@@ -86,28 +86,8 @@\n m1)%0A\n-    fmt.Scan(&num2)%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-44-25",
+            "content": "@@ -65,19 +65,8 @@\n at64\n- //variavel\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-53-10",
+            "content": "package main\nimport \"fmt\"\n\n\n\nfunc main() {\n    var num1,num2 float64 //variavel\n    fmt.Scan(&num1)\n    fmt.Scan(&num2)\n    fmt.Println(\"ol\u00e1 mundo\", num1,num2)\n}\n",
+            "lines": "11"
+        }
+    ]
+}
