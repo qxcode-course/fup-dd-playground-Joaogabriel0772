@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-17_22-28-43",
+            "content": "@@ -41,105 +41,28 @@\n     \n-var a,b int%0A    fmt.Scanln(&a,&b)%0Aif a %3E b %7B%0A    fmt.Println(a)%0A    %0A%7D else %7B%0A    fmt.Println(b)%0A%7D\n+fmt.Println(%22qxcode%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-17_23-00-13",
+            "content": "@@ -71,20 +71,16 @@\n (&a,&b)%0A\n-    \n if a %3E b\n@@ -109,57 +109,8 @@\n     \n-resultado := max(a, b)%0A    fmt.Println(resultado)\n %0A%7D e\n@@ -142,29 +142,4 @@\n %7D%0A%7D%0A\n-func max(a int,b int) int\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-17_23-09-37",
+            "content": "@@ -30,134 +30,85 @@\n c ma\n-x(a int, b int) int %7B%0A    if a %3E b %7B%0A        return a%0A    %7D%0A    return b%0A%7D%0Afunc main() %7B%0A    var a, b int%0A    fmt.Scanln(&a,&b\n+in() %7B%0A    var a,b int%0A    fmt.Scanln(&a,&b)%0A    if a %3E b %7B%0A    fmt.Println(a\n )%0A  \n@@ -160,8 +160,64 @@\n ltado)%0A%7D\n+ else %7B%0A    fmt.Println(b)%0A%7D%0A%7D%0Afunc max(a int,b int) int\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-17_23-10-40",
+            "content": "@@ -100,16 +100,28 @@\n turn b%0A%7D\n+%0Afunc main()\n  %7B%0A    v\n@@ -209,9 +209,8 @@\n ltado)%0A%7D\n- \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-17_23-13-10",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -104,20 +104,8 @@\n  b%0A%7D\n-%0Afunc main()\n  %7B%0A \n@@ -142,17 +142,16 @@\n (&a,&b)%0A\n-%0A\n     resu\n@@ -196,9 +196,10 @@\n ultado)%0A\n-\n %7D\n+ \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_23-13-59",
+            "content": "@@ -154,25 +154,9 @@\n n(&a\n-)%0A    fmt.Scanln(\n+,\n &b)%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-17_23-14-13",
+            "content": "package main\n\nimport \"fmt\"\nfunc max(a int, b int) int {\n    if a > b {\n        return a\n    }\n    return b\n}\nfunc main() {\n    var a, b int\n    fmt.Scanln(&a)\n    fmt.Scanln(&b)\n\n    resultado := max(a, b)\n    fmt.Println(resultado)\n}",
+            "lines": "17"
+        }
+    ]
+}

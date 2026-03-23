@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-17_22-04-40",
+            "content": "@@ -10,42 +10,21 @@\n ain%0A\n-%0A\n import \n-(%0A    \n %22fmt%22%0A\n-    %22math%22%0A)%0A%0A\n func\n@@ -41,92 +41,28 @@\n     \n-numero := -10.5%0A    valorAbsoluto := math.Abs(numero)%0A%0A    fmt.Println(valorAbsoluto\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-17_22-10-39",
+            "content": "@@ -10,228 +10,144 @@\n ain%0A\n+%0A\n import \n-%22fmt%22%0Afunc abs(x int) int %7B%0A    if x %3C 0 %7B%0A        return -x%0A    %7D%0A    return x%0A%7D%0Afunc main() %7B%0A    var a,b int%0A    fmt.Scan(&a,&b)%0A    diferenca := a - b%0A    resultado := abs(diferenca)%0A    fmt.Print(resultado)%0A%7D \n+(%0A    %22fmt%22%0A    %22math%22%0A)%0A%0Afunc main() %7B%0A    numero := -10.5%0A    valorAbsoluto := math.Abs(numero)%0A%0A    fmt.Println(valorAbsoluto)\n %0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-17_22-17-12",
+            "content": "@@ -95,17 +95,16 @@\n urn x%0A%7D%0A\n-%0A\n func mai\n@@ -123,16 +123,14 @@\n r a,\n- \n b int%0A\n-%0A\n     \n@@ -141,35 +141,16 @@\n Scan\n-ln\n (&a\n-)%0A    fmt.Scanln(\n+,\n &b)%0A\n-%0A\n     \n@@ -200,17 +200,16 @@\n erenca)%0A\n-%0A\n     fmt.\n@@ -217,10 +217,8 @@\n rint\n-ln\n (res\n@@ -226,8 +226,12 @@\n ltado)%0A%7D\n+ %0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-17_22-17-53",
+            "content": "package main\nimport \"fmt\"\nfunc abs(x int) int {\n    if x < 0 {\n        return -x\n    }\n    return x\n}\n\nfunc main() {\n    var a, b int\n\n    fmt.Scanln(&a)\n    fmt.Scanln(&b)\n\n    diferenca := a - b\n    resultado := abs(diferenca)\n\n    fmt.Println(resultado)\n}",
+            "lines": "20"
+        }
+    ]
+}

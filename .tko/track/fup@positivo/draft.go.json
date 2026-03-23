@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-17_23-30-04",
+            "content": "@@ -28,167 +28,41 @@\n unc \n-abs(n int) int %7B%0A    if n %3C 0 %7B%0A%7D%0Afunc main() %7B%0A   var n int%0A   fmt.Scanln(&n)%0A    if n == 0 %7C%7C n == 0 %7B%0A    fmt.Println(%22SIM%22)%0A%7D else %7B%0A    fmt.Println(%22NAO\n+main() %7B%0A    fmt.Println(%22qxcode\n %22)%0A%7D%0A\n-%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-17_23-40-41",
+            "content": "@@ -34,26 +34,8 @@\n s(n \n-int ,sim int, nao \n int)\n@@ -60,48 +60,8 @@\n 0 %7B%0A\n-        return sim%0A    %7D%0A    return nao%0A\n %7D%0Afu\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-17_23-41-33",
+            "content": "@@ -174,17 +174,18 @@\n f n \n-%3C\n+==\n  0 %7C%7C n \n %3E 0 \n@@ -184,9 +184,10 @@\n %7C n \n-%3E\n+==\n  0 %7B\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-17_23-41-58",
+            "content": "@@ -19,16 +19,113 @@\n t %22fmt%22%0A\n+func abs(n int ,sim int, nao int) int %7B%0A    if n %3C 0 %7B%0A        return sim%0A    %7D%0A    return nao%0A%7D%0A\n func mai\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-17_23-42-15",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -36,17 +36,16 @@\n () %7B%0A   \n- \n var n in\n@@ -46,17 +46,16 @@\n r n int%0A\n- \n    fmt.S\n@@ -64,17 +64,16 @@\n nln(&n)%0A\n-%0A\n     if n\n@@ -77,19 +77,23 @@\n f n \n-%3E= 0 %7B%0A    \n+%3C 0 %7C%7C n %3E 0 %7B%0A\n     \n@@ -111,20 +111,16 @@\n (%22SIM%22)%0A\n-    \n %7D else %7B\n@@ -124,20 +124,16 @@\n e %7B%0A    \n-    \n fmt.Prin\n@@ -147,12 +147,7 @@\n O%22)%0A\n-    %7D%0A\n %7D%0A\n+%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-17_23-43-32",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var n int\n    fmt.Scanln(&n)\n\n    if n >= 0 {\n        fmt.Println(\"SIM\")\n    } else {\n        fmt.Println(\"NAO\")\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}

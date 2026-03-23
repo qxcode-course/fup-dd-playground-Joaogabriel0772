@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_17-44-21",
+            "content": "@@ -40,245 +40,29 @@\n %0A   \n-var n1,n2 int%0A   var op string%0A   fmt.Scan(&n1,&n2,&op)%0A   if op == %22+%22%7B%0A    fmt.Println(n1+n2)%7B%0A   %7D else if op %22-%22%7B%0A    fmt.Println(n1-n2)%0A   %7D else if op %22*%22%7B%0A    fmt.Println(n1*n2)%0A   %7D else if op %22/%22%7B%0A    fmt.Println(n1/n2)%0A   %7D%0A   %0A\n+ fmt.Println(%22qxcode%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_18-02-19",
+            "content": "@@ -136,19 +136,18 @@\n n2)%7B%0A   \n-  \n %7D\n+ \n else if \n@@ -148,19 +148,16 @@\n se if op\n- ==\n  %22-%22%7B%0A  \n@@ -192,19 +192,16 @@\n se if op\n- ==\n  %22*%22%7B%0A  \n@@ -236,19 +236,16 @@\n se if op\n- ==\n  %22/%22%7B%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-23_18-04-29",
+            "content": "@@ -131,16 +131,17 @@\n n(n1+n2)\n+%7B\n %0A     %7De\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-23_18-05-04",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var n1,n2 int\n   var op string\n   fmt.Scan(&n1,&n2,&op)\n   if op == \"+\"{\n    fmt.Println(n1+n2)\n     }else if op == \"-\"{\n    fmt.Println(n1-n2)\n   } else if op == \"*\"{\n    fmt.Println(n1*n2)\n   } else if op == \"/\"{\n    fmt.Println(n1/n2)\n   }\n   \n\n}\n",
+            "lines": "18"
+        }
+    ]
+}
