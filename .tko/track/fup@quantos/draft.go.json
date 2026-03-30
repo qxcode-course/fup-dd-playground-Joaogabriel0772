@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-24_16-29-51",
+            "content": "@@ -38,49 +38,8 @@\n  %7B%0A \n-  var n1 int%0A   var n2 int%0A   var n3 int%0A\n    f\n@@ -53,16 +53,16 @@\n tln(\n-n1,n2,n3\n+%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-24_16-31-44",
+            "content": "@@ -86,189 +86,24 @@\n fmt.\n-Scanln(n1,n2,n3)%0A   if n1 == n2 && n2 == n3 %7B%0A        fmt.Println(3)%0A    %7D else if n1 == n2 %7C%7C n1 == n3 %7C%7C n2 == n3 %7B%0A        fmt.Println(2)%0A    %7D else %7B%0A        fmt.Println(0)%0A    %7D\n+Println(n1,n2,n3)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-24_16-42-28",
+            "content": "@@ -46,12 +46,34 @@\n r n1\n-,n2,\n+ int%0A   var n2 int%0A   var \n n3 i\n@@ -93,17 +93,14 @@\n nln(\n-&\n n1,\n-&\n n2,\n-&\n n3)%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-24_16-43-00",
+            "content": "@@ -95,18 +95,18 @@\n 1 == n2 \n-%7C%7C\n+&&\n  n2 == n\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-47-04",
+            "content": "@@ -129,17 +129,17 @@\n Println(\n-2\n+3\n )%0A    %7D \n@@ -193,33 +193,33 @@\n     fmt.Println(\n-3\n+2\n )%0A    %7D else %7B%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-47-23",
+            "content": "@@ -133,9 +133,9 @@\n tln(\n-0\n+2\n )%0A  \n@@ -233,23 +233,23 @@\n fmt.Println(\n-2\n+0\n )%0A    %7D%0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-47-34",
+            "content": "@@ -125,25 +125,25 @@\n fmt.Println(\n-2\n+0\n )%0A    %7D else\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-47-44",
+            "content": "@@ -67,22 +67,25 @@\n .Scanln(\n+&\n n1,\n+&\n n2,\n+&\n n3)%0A   i\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-50-24",
+            "content": "@@ -126,17 +126,17 @@\n Println(\n-3\n+2\n )%0A    %7D \n@@ -190,33 +190,33 @@\n     fmt.Println(\n-2\n+3\n )%0A    %7D else %7B%0A \n@@ -238,9 +238,9 @@\n tln(\n-0\n+2\n )%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-51-02",
+            "content": "@@ -96,10 +96,12 @@\n  n2 \n-&&\n+%7C%7C n\n 2 ==\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-54-14",
+            "content": "@@ -94,18 +94,16 @@\n == n2 &&\n- n\n 2 == n3 \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_16-54-41",
+            "content": "@@ -71,17 +71,14 @@\n nln(\n-&\n n1,\n-&\n n2,\n-&\n n3)%0A\n@@ -92,18 +92,18 @@\n 1 == n2 \n-%7C%7C\n+&&\n  n2 == n\n@@ -126,17 +126,17 @@\n Println(\n-2\n+3\n )%0A    %7D \n@@ -190,33 +190,33 @@\n     fmt.Println(\n-3\n+2\n )%0A    %7D else %7B%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_17-00-47",
+            "content": "@@ -129,17 +129,17 @@\n Println(\n-3\n+2\n )%0A    %7D \n@@ -193,33 +193,33 @@\n     fmt.Println(\n-2\n+3\n )%0A    %7D else %7B%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_17-01-01",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -40,30 +40,25 @@\n %0A   \n- \n var n1,\n- \n n2,\n- \n n3 int%0A\n-%0A \n    f\n@@ -74,52 +74,18 @@\n (&n1\n-)%0A    fmt.Scanln(&n2)%0A    fmt.Scanln(\n+,&n2,\n &n3)%0A\n-%0A \n    i\n@@ -99,10 +99,10 @@\n  n2 \n-&&\n+%7C%7C\n  n2 \n@@ -247,8 +247,9 @@\n %0A    %7D%0A%7D\n+%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_17-06-59",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    var n1, n2, n3 int\n\n    fmt.Scanln(&n1)\n    fmt.Scanln(&n2)\n    fmt.Scanln(&n3)\n\n    if n1 == n2 && n2 == n3 {\n        fmt.Println(3)\n    } else if n1 == n2 || n1 == n3 || n2 == n3 {\n        fmt.Println(2)\n    } else {\n        fmt.Println(0)\n    }\n}",
+            "lines": "19"
+        }
+    ]
+}

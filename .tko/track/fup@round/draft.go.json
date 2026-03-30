@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_17-18-43",
+            "content": "@@ -28,207 +28,16 @@\n unc \n-floor(num float64) int %7B%0A    inteiro := int(num)%0A    if num %3C 0 && float64(inteiro) != num %7B%0A        return inteiro - 1%0A    %7D%0A    return inteiro%0A%7D%0Afunc main() %7B%0A    var num float64%0A    fmt.Scan(&num)\n+main() %7B\n %0A   \n@@ -53,17 +53,16 @@\n tln(\n-floor(num)\n+%22qxcode%22\n )%0A%7D\n+%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_17-36-29",
+            "content": "@@ -257,152 +257,4 @@\n ))%0A%7D\n-%0Afunc ceil(num float64) int%7B%0A    inteiro := int(num)%0A    if num %3E 0 && float64(inteiro) !=num%7B%0A        return inteiro + 1%0A    %7D%0A    return inteiro%0A%7D\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_17-57-09",
+            "content": "@@ -405,169 +405,4 @@\n ro%0A%7D\n-%0Afunc round(num float64) int %7B%0A    inteiro := int(num)%0A    frac := num - float64(inteiro)%0A%0A    if frac %3E= 0.5 %7B%0A        return inteiro + 1%0A    %7D%0A    return inteiro%0A%7D\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-03-30_17-59-31",
+            "content": "@@ -200,17 +200,8 @@\n  num\n-,op,f,c,r\n  flo\n@@ -236,244 +236,27 @@\n fmt.\n-Scan(&op)%0A    fmt.Scan(&f,&c,&r)%0A    fmt.Println(floor(num))%0A       if op == %22f%22 %7B%0A        fmt.Println(floor(num))%0A    %7D else if op == %22c%22 %7B%0A        fmt.Println(ceil(num))%0A    %7D else if op == %22r%22 %7B%0A        fmt.Println(round(num))%0A    %7D%0A\n+Println(floor(num))\n %0A%7D%0Af\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-03-30_18-02-27",
+            "content": "@@ -180,159 +180,317 @@\n unc \n-ceil(num float64) int %7B%0A    inteiro := int\n+main() %7B%0A    var num,op,f,c,r float64%0A    fmt.Scan(&num)%0A    fmt.Scan(&op)%0A    fmt.Scan(&f,&c,&r)%0A    fmt.Println(floor\n (num)\n+)\n %0A    \n-if num %3E 0 && float64(inteiro) != num %7B%0A        return inteiro + 1\n+   if op == %22f%22 %7B%0A        fmt.Println(floor(num))%0A    %7D else if op == %22c%22 %7B%0A        fmt.Println(ceil(num))%0A    %7D else if op == %22r%22 %7B\n %0A    \n-%7D%0A\n     \n-return inteiro\n+fmt.Println(round(num))%0A    %7D%0A\n %0A%7D%0Afunc \n roun\n@@ -485,21 +485,20 @@\n %0A%7D%0Afunc \n-round\n+ceil\n (num flo\n@@ -498,33 +498,32 @@\n num float64) int\n- \n %7B%0A    inteiro :=\n@@ -540,21 +540,21 @@\n     \n-frac := num -\n+if num %3E 0 &&\n  flo\n@@ -570,29 +570,14 @@\n iro)\n-%0A%0A    if frac %3E= 0.5 \n+ !=num\n %7B%0A  \n@@ -637,303 +637,163 @@\n unc \n-main() %7B%0A    var num float64%0A    var op string%0A    fmt.Scan(&num)%0A    fmt.Scan(&op)%0A%0A    switch op %7B%0A    case %22f%22:%0A        fmt.Println(floor\n+round(num float64) int %7B%0A    inteiro := int\n (num)\n-)\n %0A    \n-case %22c%22:%0A        fmt.Println(ceil(num)\n+frac := num - float64(inteiro\n )%0A\n+%0A\n     \n-case %22r%22:%0A        fmt.Println(round(num))%0A    default:\n+if frac %3E= 0.5 %7B%0A        return inteiro + 1\n %0A    \n+%7D%0A\n     \n-fmt.Println(%22Opera%C3%A7%C3%A3o inv%C3%A1lida%22)%0A    %7D\n+return inteiro\n %0A%7D\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-03-30_18-06-28",
+            "content": "@@ -411,16 +411,17 @@\n nteiro)%0A\n+%0A\n     if f\n@@ -464,64 +464,8 @@\n + 1%0A\n-    %7D else if frac %3C= -0.5 %7B%0A        return inteiro - 1%0A\n     \n@@ -539,17 +539,16 @@\n  string%0A\n-%0A\n     fmt.\n@@ -553,18 +553,19 @@\n t.Scan(&\n-op\n+num\n )%0A    fm\n@@ -572,19 +572,18 @@\n t.Scan(&\n-num\n+op\n )%0A%0A    s\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-03-30_18-07-51",
+            "content": "package main\nimport \"fmt\"\nfunc floor(num float64) int {\n    inteiro := int(num)\n    if num < 0 && float64(inteiro) != num {\n        return inteiro - 1\n    }\n    return inteiro\n}\nfunc ceil(num float64) int {\n    inteiro := int(num)\n    if num > 0 && float64(inteiro) != num {\n        return inteiro + 1\n    }\n    return inteiro\n}\nfunc round(num float64) int {\n    inteiro := int(num)\n    frac := num - float64(inteiro)\n    if frac >= 0.5 {\n        return inteiro + 1\n    } else if frac <= -0.5 {\n        return inteiro - 1\n    }\n    return inteiro\n}\nfunc main() {\n    var num float64\n    var op string\n\n    fmt.Scan(&op)\n    fmt.Scan(&num)\n\n    switch op {\n    case \"f\":\n        fmt.Println(floor(num))\n    case \"c\":\n        fmt.Println(ceil(num))\n    case \"r\":\n        fmt.Println(round(num))\n    default:\n        fmt.Println(\"Opera\u00e7\u00e3o inv\u00e1lida\")\n    }\n}",
+            "lines": "44"
+        }
+    ]
+}
