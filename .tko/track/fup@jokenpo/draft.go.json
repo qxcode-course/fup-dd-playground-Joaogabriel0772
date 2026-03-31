@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_17-29-20",
+            "content": "@@ -41,278 +41,35 @@\n     \n-var jog1, jog2 string%0A    fmt.Scan(&jog1,&jog2)%0A    if jog1 == jog2%7B%0A        fmt.Println(%22empate%22)%0A    %7D else if (jog1 == %22R%22 && jog2 ==%22S%22) %7C%7C (jog1 == %22S%22 && jog2 == %22P%22) %7C%7C (jog1==%22P%22 && jog2==%22R%22)%7B%0A        fmt.Println(jog1)%0A    %7D else%7B%0A        fmt.Println(jog2)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_17-44-36",
+            "content": "@@ -1,318 +1,52 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var jog1, jog2 string%0A    fmt.Scan(&jog1,&jog2)%0A    if jog1 == jog2%7B%0A        fmt.Println(%22empate%22)%0A    %7D else if (jog2 == %22R%22 && jog2 ==%22S%22) %7C%7C (jog1 == %22S%22 && jog2 == %22P%22) %7C%7C (jog1==%22P%22 && jog2==%22R%22)%7B%0A        fmt.Println(jog1)%0A    %7D else%7B%0A        fmt.Println(jog2)%0A    %7D%0A%7D\n+@@ -154,17 +154,17 @@%0A  if (jog%0A-2%0A+1%0A  == %2522R%2522 \n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_17-45-42",
+            "content": "@@ -150,25 +150,25 @@\n else if (jog\n-1\n+2\n  == %22R%22 && j\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-45-49",
+            "content": "@@ -263,14 +263,12 @@\n tln(\n-%22\n jog1\n-%22\n )%0A  \n@@ -301,14 +301,12 @@\n tln(\n-%22\n jog2\n-%22\n )%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-46-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var jog1, jog2 string\n    fmt.Scan(&jog1,&jog2)\n    if jog1 == jog2{\n        fmt.Println(\"empate\")\n    } else if (jog1 == \"R\" && jog2 ==\"S\") || (jog1 == \"S\" && jog2 == \"P\") || (jog1==\"P\" && jog2==\"R\"){\n        fmt.Println(\"jog1\")\n    } else{\n        fmt.Println(\"jog2\")\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}

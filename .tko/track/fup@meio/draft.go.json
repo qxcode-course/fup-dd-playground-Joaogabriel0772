@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_17-03-51",
+            "content": "@@ -41,214 +41,35 @@\n     \n-var a,b,c int%0A    fmt.Scanln(&a,&b,&c)%0A    if (a %3E b && a %3C c ) %7C%7C (a %3E c && a %3C b)%7B%0A        fmt.Println(a)%0A    %7D else if (b %3E a && b %3C c) %7C%7C (b %3E c && b %3C a)%7B%0A        fmt.Println(b)%0A    %7D%0A    fmt.Println(c\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_17-19-01",
+            "content": "@@ -224,22 +224,8 @@\n (b)%0A\n-    %7D else %7B%0A%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-31_17-19-25",
+            "content": "@@ -233,16 +233,17 @@\n  else %7B%0A\n+%0A\n     %7D%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-31_17-20-56",
+            "content": "@@ -100,16 +100,36 @@\n  a %3C c )\n+ %7C%7C (a %3E c && a %3C b)\n %7B%0A      \n@@ -175,16 +175,36 @@\n & b %3C c)\n+ %7C%7C (b %3E c && b %3C a)\n %7B%0A      \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-21-54",
+            "content": "@@ -103,16 +103,8 @@\n %3C c \n-&& b %3E c\n )%7B%0A \n@@ -158,15 +158,8 @@\n  %3C c\n- && c%3Eb\n )%7B%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-22-54",
+            "content": "@@ -167,19 +167,17 @@\n %3C c && c\n- %3E \n+%3E\n b)%7B%0A    \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-23-01",
+            "content": "@@ -63,16 +63,18 @@\n fmt.Scan\n+ln\n (&a,&b,&\n@@ -213,14 +213,15 @@\n se %7B\n- \n %0A    \n+%7D%0A\n     \n@@ -239,16 +239,6 @@\n (c)%0A\n-    %7D%0A   %0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-24-12",
+            "content": "@@ -93,24 +93,32 @@\n  b && a %3C c \n+&& b %3E c\n )%7B%0A        f\n@@ -161,16 +161,24 @@\n & b %3C c \n+&& c %3E b\n )%7B%0A     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-31_17-25-10",
+            "content": "@@ -102,23 +102,8 @@\n  c )\n- %7C%7C (a%3Cb&& a%3Ec)\n %7B%0A  \n@@ -158,24 +158,8 @@\n  c )\n- %7C%7C (b%3Ca && b%3Ec)\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-31_17-27-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a,b,c int\n    fmt.Scan(&a,&b,&c)\n    if (a > b && a < c ) || (a<b&& a>c){\n        fmt.Println(a)\n    } else if (b > a && b < c ) || (b<a && b>c){\n        fmt.Println(b)\n    } else { \n        fmt.Println(c)\n    }\n   \n}\n",
+            "lines": "14"
+        }
+    ]
+}

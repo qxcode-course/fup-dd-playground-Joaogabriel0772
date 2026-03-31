@@ -47,3 +47,7 @@
 2026-03-30 18:07:51, EXEC, v:1, k:fup@round, mode:FULL, rate:100, size:44
 2026-03-30 18:08:55, MOVE, v:1, k:fup@round, mode:BACK
 2026-03-30 18:09:30, SELF, v:1, k:fup@round, self:1, rate:100, study:50, concept:1, refactor:1
+2026-03-30 18:19:59, MOVE, v:1, k:fup@mumia, mode:DOWN
+2026-03-30 18:20:00, MOVE, v:1, k:fup@mumia, mode:PICK
+2026-03-30 18:20:01, EXEC, v:1, k:fup@mumia, mode:FULL, rate:0, size:5
+2026-03-30 18:20:58, MOVE, v:1, k:fup@mumia, mode:BACK
