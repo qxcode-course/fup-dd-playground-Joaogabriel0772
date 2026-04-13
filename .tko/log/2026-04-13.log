@@ -1,0 +1,147 @@
+2026-04-13 16:51:56, MOVE, v:1, k:eval1@bala, mode:DOWN
+2026-04-13 16:51:57, MOVE, v:1, k:eval1@bala, mode:PICK
+2026-04-13 16:52:00, EXEC, v:1, k:eval1@bala, mode:FULL, rate:0, size:5
+2026-04-13 16:51:56, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 16:51:56, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 16:52:00, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 16:56:11, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 17:00:30, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 17:06:32, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 17:06:45, EXEC, v:1, k:eval1@bala, mode:FULL, rate:0, size:11
+2026-04-13 17:08:21, EXEC, v:1, k:eval1@bala, mode:FULL, rate:16, size:11
+2026-04-13 17:10:18, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 17:08:21, MOVE, v:1, k:eval1@bala, mode:EDIT
+2026-04-13 17:13:09, EXEC, v:1, k:eval1@bala, mode:FULL, rate:16, size:12
+2026-04-13 17:14:07, EXEC, v:1, k:eval1@bala, mode:FULL, size:12, fail:COMP
+2026-04-13 17:14:17, EXEC, v:1, k:eval1@bala, mode:FULL, rate:16, size:12
+2026-04-13 17:15:04, EXEC, v:1, k:eval1@bala, mode:FULL, size:12, fail:COMP
+2026-04-13 17:15:14, EXEC, v:1, k:eval1@bala, mode:FULL, size:12, fail:COMP
+2026-04-13 17:15:24, EXEC, v:1, k:eval1@bala, mode:FULL, size:12, fail:COMP
+2026-04-13 17:15:39, MOVE, v:1, k:eval1@bala, mode:PICK
+2026-04-13 17:15:40, EXEC, v:1, k:eval1@bala, mode:FULL, rate:16, size:12
+2026-04-13 17:18:15, EXEC, v:1, k:eval1@bala, mode:FULL, rate:100, size:12
+2026-04-13 17:18:37, MOVE, v:1, k:eval1@bala, mode:BACK
+2026-04-13 17:18:58, SELF, v:1, k:eval1@bala, self:1, rate:100, study:25
+2026-04-13 17:18:59, MOVE, v:1, k:eval1@bala, mode:PICK
+2026-04-13 17:18:59, EXEC, v:1, k:eval1@bala, mode:FULL, rate:100
+2026-04-13 17:19:07, MOVE, v:1, k:eval1@bala, mode:BACK
+2026-04-13 17:19:34, MOVE, v:1, k:eval1@mumia, mode:DOWN
+2026-04-13 17:19:35, MOVE, v:1, k:eval1@mumia, mode:PICK
+2026-04-13 17:19:37, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:5
+2026-04-13 17:19:34, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:19:34, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:24:27, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:19:37, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:29:25, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:34:01, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:39:17, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:13
+2026-04-13 17:39:16, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:39:17, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:39:56, EXEC, v:1, k:eval1@mumia, mode:FULL, size:14, fail:COMP
+2026-04-13 17:40:04, MOVE, v:1, k:eval1@mumia, mode:PICK
+2026-04-13 17:40:05, EXEC, v:1, k:eval1@mumia, mode:FULL, fail:COMP
+2026-04-13 17:40:21, EXEC, v:1, k:eval1@mumia, mode:FULL, size:14, fail:COMP
+2026-04-13 17:40:24, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:13
+2026-04-13 17:42:03, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:13
+2026-04-13 17:42:10, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0
+2026-04-13 17:43:04, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0
+2026-04-13 17:43:05, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0
+2026-04-13 17:43:20, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0, size:13
+2026-04-13 17:43:22, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:0
+2026-04-13 17:44:05, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:13
+2026-04-13 17:45:02, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:44:05, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:46:43, EXEC, v:1, k:eval1@mumia, mode:FULL, size:17, fail:COMP
+2026-04-13 17:46:43, EXEC, v:1, k:eval1@mumia, mode:FULL, size:17, fail:COMP
+2026-04-13 17:46:44, EXEC, v:1, k:eval1@mumia, mode:FULL, size:17, fail:COMP
+2026-04-13 17:47:50, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:47:50, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:47:51, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:47:52, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:47:53, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:47:53, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:49:19, MOVE, v:1, k:eval1@mumia, mode:PICK
+2026-04-13 17:49:20, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:49:24, EXEC, v:1, k:eval1@mumia, mode:FULL, fail:COMP
+2026-04-13 17:50:19, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:50:19, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:50:19, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:50:19, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:50:20, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:50:38, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:51:21, EXEC, v:1, k:eval1@mumia, mode:FULL, size:19, fail:COMP
+2026-04-13 17:51:23, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:51:24, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:51:26, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:51:28, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:51:45, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:51:45, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:03, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:05, EXEC, v:1, k:eval1@mumia, mode:FULL, size:20, fail:COMP
+2026-04-13 17:52:06, EXEC, v:1, k:eval1@mumia, mode:FULL, fail:COMP
+2026-04-13 17:52:06, EXEC, v:1, k:eval1@mumia, mode:FULL, fail:COMP
+2026-04-13 17:52:37, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:52:38, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:38, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:39, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:39, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:40, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:40, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:41, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:41, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:41, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:52:42, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:53:20, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:53:40, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22, size:19
+2026-04-13 17:53:39, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:53:40, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:55:53, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:54, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:55, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:55, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:56, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:56, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:57, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:57, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:58, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:58, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:59, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:55:59, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:19, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:20, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:20, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:20, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:21, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:21, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:22, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:22, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:23, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:23, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:24, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:24, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:25, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:56:25, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:22
+2026-04-13 17:57:34, EXEC, v:1, k:eval1@mumia, mode:FULL, rate:100, size:20
+2026-04-13 17:57:44, MOVE, v:1, k:eval1@mumia, mode:BACK
+2026-04-13 17:57:56, SELF, v:1, k:eval1@mumia, self:1, rate:100, study:30
+2026-04-13 17:58:00, MOVE, v:1, k:eval1@monica, mode:DOWN
+2026-04-13 17:58:01, MOVE, v:1, k:eval1@monica, mode:PICK
+2026-04-13 17:58:03, EXEC, v:1, k:eval1@monica, mode:FULL, rate:0, size:5
+2026-04-13 17:58:11, MOVE, v:1, k:eval1@monica, mode:BACK
+2026-04-13 17:58:13, MOVE, v:1, k:eval1@monica, mode:PICK
+2026-04-13 17:58:15, EXEC, v:1, k:eval1@monica, mode:FULL, rate:0
+2026-04-13 17:57:34, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:57:32, MOVE, v:1, k:eval1@mumia, mode:EDIT
+2026-04-13 17:58:00, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:58:00, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:58:23, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 17:58:14, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 18:04:07, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 18:04:54, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 18:14:16, EXEC, v:1, k:eval1@monica, mode:FULL, rate:0, size:11
+2026-04-13 18:11:37, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 18:14:15, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 18:20:08, MOVE, v:1, k:eval1@monica, mode:BACK
+2026-04-13 18:20:38, MOVE, v:1, k:eval1@monica, mode:PICK
+2026-04-13 18:20:40, EXEC, v:1, k:eval1@monica, mode:FULL, rate:0
+2026-04-13 18:21:30, MOVE, v:1, k:eval1@monica, mode:BACK

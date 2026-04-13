@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-06_16-12-14",
+            "content": "@@ -185,16 +185,18 @@\n 02d:%2502d\n+  \n %2502d/%2502\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-06_16-13-05",
+            "content": "@@ -185,17 +185,16 @@\n 02d:%2502d\n- \n %2502d/%2502\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-06_16-13-10",
+            "content": "@@ -186,17 +186,16 @@\n 2d:%2502d \n- \n %2502d/%2502\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-06_16-13-15",
+            "content": "@@ -186,16 +186,17 @@\n 2d:%2502d \n+ \n %2502d/%2502\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-06_16-13-43",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var h,m,d,mes,ano int\n   fmt.Scan(&h)\n   fmt.Scan(&m)\n   fmt.Scan(&d)\n   fmt.Scan(&mes)\n   fmt.Scan(&ano)\n    ano=ano % 100\n    fmt.Printf(\"%02d:%02d %02d/%02d/%02d\\n\", h, m, d, mes, ano)\n   }\n",
+            "lines": "12"
+        }
+    ]
+}

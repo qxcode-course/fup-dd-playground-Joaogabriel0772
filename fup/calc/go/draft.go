@@ -13,6 +13,4 @@ func main() {
    } else if op == "/"{
     fmt.Println(n1/n2)
    }
-   
-
 }

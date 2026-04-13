@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-06_16-53-46",
+            "content": "@@ -41,269 +41,35 @@\n     \n-var valor float64%0A    var parcelas int%0A    fmt.Scan(&valor)%0A    fmt.Scan(&parcelas)%0A    juros := float64(parcelas-1) * 0.05%0A    total := valor * (1 + juros)%0A    parcela := total / float64(parcelas)%0A    fmt.Printf(%22%25.2f%5Cn%22, parcela)%0A    fmt.Printf(%22%25.2f%5Cn%22, total\n+fmt.Println(%22Hello, World!%22\n )%0A%7D\n+%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-06_16-58-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var valor float64\n    var parcelas int\n    fmt.Scan(&valor)\n    fmt.Scan(&parcelas)\n    juros := float64(parcelas-1) * 0.05\n    total := valor * (1 + juros)\n    parcela := total / float64(parcelas)\n    fmt.Printf(\"%.2f\\n\", parcela)\n    fmt.Printf(\"%.2f\\n\", total)\n}",
+            "lines": "13"
+        }
+    ]
+}

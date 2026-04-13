@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_17-03-23",
+            "content": "@@ -38,131 +38,37 @@\n  %7B%0A \n-var A,B int%0A fmt.Scan(&A, &B)%0A fmt.Print(%22%5B%22)%0A    for i := A; i %3C B; i++ %7B%0A        fmt.Print(i, %22 %22)%0A    %7D%0A    fmt.Print(%22%5D\n+   fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-07_17-47-36",
+            "content": "@@ -77,17 +77,16 @@\n Print(%22%5B\n- \n %22)%0A    f\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-47-41",
+            "content": "@@ -136,12 +136,9 @@\n i, %22\n-%5B%5D %5D\n+ \n %22)%0A \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-48-09",
+            "content": "@@ -134,16 +134,18 @@\n t(i, %22%5B%5D\n+ %5D\n %22)%0A    %7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-48-10",
+            "content": "@@ -132,17 +132,18 @@\n int(i, %22\n- \n+%5B%5D\n %22)%0A    %7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-48-15",
+            "content": "@@ -130,16 +130,17 @@\n Print(i,\n+ \n %22 %22)%0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-49-43",
+            "content": "@@ -131,17 +131,16 @@\n rint(i,%22\n- \n  %22)%0A    \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-49-48",
+            "content": "@@ -130,18 +130,18 @@\n Print(i,\n- \n %22\n+ \n  %22)%0A    \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-49-53",
+            "content": "@@ -114,76 +114,8 @@\n + %7B%0A\n-        if i == B-1 %7B%0A            fmt.Print(i)%0A        %7D else %7B%0A    \n     \n@@ -140,18 +140,8 @@\n  %22)%0A\n-        %7D%0A\n     \n@@ -159,13 +159,10 @@\n rint\n-ln\n (%22\n- \n %5D%22)%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-07_17-50-36",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n var A,B int\n fmt.Scan(&A, &B)\n fmt.Print(\"[ \")\n    for i := A; i < B; i++ {\n        if i == B-1 {\n            fmt.Print(i)\n        } else {\n            fmt.Print(i, \" \")\n        }\n    }\n    fmt.Println(\" ]\")\n}\n",
+            "lines": "15"
+        }
+    ]
+}
