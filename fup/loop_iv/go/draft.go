@@ -1,11 +1,15 @@
 package main
 import "fmt"
 func main() {
-    var A,B int
- fmt.Scan(&A, &B)
- fmt.Print("[ ")
-    for i := A,B i++ {
-        if i == B-1 {
+    var A, B int
+    fmt.Scan(&A, &B)
+    fmt.Print("[ ")
+    step := 1
+    if A > B {
+        step = -1
+    }
+    for i := A; i != B; i += step {
+        if i+step == B {
             fmt.Print(i)
         } else {
             fmt.Print(i, " ")

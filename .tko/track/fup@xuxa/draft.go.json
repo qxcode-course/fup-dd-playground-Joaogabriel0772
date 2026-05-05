@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-04_17-09-27",
+            "content": "@@ -17,295 +17,59 @@\n ort \n-(%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A)%0Afunc main() %7B%0A%09reader := bufio.NewReader(os.Stdin)%0A%09text, _ := reader.ReadString('%5Cn')%0A%09if len(text) %3E 0 && text%5Blen(text)-1%5D == '%5Cn' %7B%0A%09%09text = text%5B:len(text)-1%5D%0A%09%7D%0A%09runes := %5B%5Drune(text)%0A%09for i := len(runes) - 1; i %3E= 0; i-- %7B%0A%09%09fmt.Print(string(runes%5Bi%5D))%0A%09%7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_17-17-18",
+            "content": "@@ -233,22 +233,8 @@\n xt)%0A\n-%09result := %22%22%0A\n %09for\n@@ -275,18 +275,18 @@\n %7B%0A%09%09\n-result += \n+fmt.Print(\n stri\n@@ -301,32 +301,11 @@\n %5Bi%5D)\n+)\n %0A%09%7D%0A\n-%09fmt.Println(result) %0A\n %7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_17-19-20",
+            "content": "package main\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n)\nfunc main() {\n\treader := bufio.NewReader(os.Stdin)\n\ttext, _ := reader.ReadString('\\n')\n\tif len(text) > 0 && text[len(text)-1] == '\\n' {\n\t\ttext = text[:len(text)-1]\n\t}\n\trunes := []rune(text)\n\tresult := \"\"\n\tfor i := len(runes) - 1; i >= 0; i-- {\n\t\tresult += string(runes[i])\n\t}\n\tfmt.Println(result) \n}\n",
+            "lines": "19"
+        }
+    ]
+}

@@ -32,8 +32,18 @@
         },
         {
             "label": "2026-04-07_18-15-37",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A,B int\n fmt.Scan(&A, &B)\n fmt.Print(\"[ \")\n    for i := A;  i <= B; i++ {\n        if i == B-1 {\n            fmt.Print(i)\n        } else {\n            fmt.Print(i, \" \")\n        }\n    }\n    fmt.Println(\" ]\")\n}\n",
+            "content": "@@ -98,18 +98,26 @@\n r i := A\n-,B\n+;  i %3C= B;\n  i++ %7B%0A \n",
             "lines": "15"
+        },
+        {
+            "label": "2026-04-14_16-38-27",
+            "content": "@@ -1,93 +1,147 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var A, B int%0A    fmt.Scan(\n+@@ -6,17 +6,16 @@%0A ge main%250A%0A-%250A%0A import %2522%0A@@ -47,18 +47,14 @@%0A r A,%0A- %0A B int%250A%0A-   %0A  fmt%0A@@ -67,19 +67,16 @@%0A \n &A, &B)\n-%0A\n+%250A%0A-\n    \n+%0A \n  fmt.Pri\n nt(%22\n@@ -140,21 +140,36 @@\n .Pri\n-nt(%22%5B %22)\n+%0A@@ -92,90 +92,24 @@\n %0A    \n+ %0A-\n step\n@@ -173,17 +173,19 @@\n tep := 1\n-%0A\n+%250A\n     if A\n@@ -189,14 +189,20 @@\n f A \n-%3E B %7B%0A\n+%253E B %257B%250A\n     \n@@ -214,23 +214,29 @@\n tep = -1\n-%0A\n+%250A\n     \n-%7D%0A\n+%257D%250A\n     for \n@@ -264,144 +264,89 @@\n step\n- %7B%0A        if i+step == B %7B%0A            fmt.Print(i)%0A        %7D else %7B%0A            fmt.Print(i, %22 %22)%0A        %7D%0A    %7D%0A    fmt.Println(%22 %5D%22)%0A%7D\n+%0A+for i := A,B i++%0A  %257B%250A %0A@@ -123,18 +123,15 @@%0A if i%0A-+step%0A  == B%0A+-1%0A  %257B%250A \n %0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-04-14_16-40-11",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B int\n    fmt.Scan(&A, &B)\n    fmt.Print(\"[ \")\n    step := 1\n    if A > B {\n        step = -1\n    }\n    for i := A; i != B; i += step {\n        if i+step == B {\n            fmt.Print(i)\n        } else {\n            fmt.Print(i, \" \")\n        }\n    }\n    fmt.Println(\" ]\")\n}\n",
+            "lines": "19"
         }
     ]
 }
