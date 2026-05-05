@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-05_18-02-57",
+            "content": "@@ -41,195 +41,35 @@\n     \n-var a,b int%0A    fmt.Scan(&a,&b)%0A    fmt.Print(%22%5B %22)%0A    for %7B%0A     if a%3C=b%7B%0A        if a%252 != 0 %7B%0A            fmt.Printf(%22%25d %22, a)%0A        %7D %0A        a++%0A     %7D else%7B%0A         break%0A     %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_18-04-37",
+            "content": "@@ -226,16 +226,10 @@\n %0A     %7D%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_18-04-49",
+            "content": "@@ -77,146 +77,165 @@\n     \n-if a%3E b%7B%0A%09%09fmt.Println(%22invalido%22)%0A%09%09return%0A%09%7D%0A%09soma := 0%0A%09for i := a; i %3C= b; i++ %7B%0A%09%09if i%256 == 0 %7B%0A%09%09%09soma += i%0A%09%09%7D%0A%09%7D%0A%09fmt.Println(soma)\n+fmt.Print(%22%5B %22)%0A    for %7B%0A     if a%3C=b%7B%0A        if a%252 != 0 %7B%0A            fmt.Printf(%22%25d %22, a)%0A        %7D %0A        a++%0A     %7D else%7B%0A         break%0A     %7D%0A    %7D\n %0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_18-07-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a,b int\n    fmt.Scan(&a,&b)\n    if a> b{\n\t\tfmt.Println(\"invalido\")\n\t\treturn\n\t}\n\tsoma := 0\n\tfor i := a; i <= b; i++ {\n\t\tif i%6 == 0 {\n\t\t\tsoma += i\n\t\t}\n\t}\n\tfmt.Println(soma)\n}\n",
+            "lines": "17"
+        }
+    ]
+}
